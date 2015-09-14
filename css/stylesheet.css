@@ -1,4 +1,16 @@
-body {
+/* Navigation Section */
+
+.top-nav {
+	background: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+/*body {
 	background: #000;
 	margin: 0;
 }
@@ -37,4 +49,4 @@ a:hover {
 
 a:active {
 	color: black;
-}
+}*/
