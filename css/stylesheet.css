@@ -1,3 +1,40 @@
 body {
-	background: gray;
+	background: #000;
+	margin: 0;
+}
+
+.banner {
+	background: white;
+	padding: 0.8em;
+}
+
+img {
+	padding-left: 15.7em;
+}
+
+.nav_select {
+	float: right;
+	padding-right: 14.7em;
+}
+
+.nav_select > ul > li {
+	color: gray;
+	font-size: 1em;
+	display: inline-block;
+	margin-right: 1.6em;
+	text-decoration: none;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
 }
