@@ -1,4 +1,4 @@
-/* General Styles */
+/* GENERAL STYLES */
 
 body {
 	background: #fff;
@@ -13,7 +13,7 @@ html {
   box-sizing: inherit;
 }
 
-/* Navigation Section */
+/* NAVIGATION ELEMENTS */
 
 
 .nav_wrap {
@@ -50,7 +50,7 @@ html {
 	margin-top: 15px;
 }
 
-/* Intro Image */
+/* INTRO IMAGE */
 
 .intro_img {
 	background-image: url('../images/first_background.jpg');
@@ -80,7 +80,7 @@ html {
 
 
 
-/* Three Icon Images */
+/* THREE ICON IMAGES */
 
 .icon_content {
 	margin-top: 100px;
@@ -95,8 +95,23 @@ html {
 	margin-right: 50px;
 }
 
+.icon {
+	margin-top: -60px;
+
+}
+
 .icon img {
-	width: 60%;
+	width: 80%;
+}
+
+/* FOOTER */
+
+.footer_nav {
+	width: 850px;
+	margin: 100px auto 0 auto;
+	text-align: center;
+	border-top: 1px solid #ccc;
+
 }
 
 /***************** COLORS & FONTS *****************/
