@@ -16,6 +16,12 @@ html {
 /* Navigation Section */
 
 
+.nav_wrap {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+}
+
 .content {
 	width: 970px;
 	height: 70px;
@@ -76,11 +82,21 @@ html {
 
 /* Three Icon Images */
 
+.icon_content {
+	margin-top: 100px;
+	text-align: center;
+}
+
 .icon_content .icon {
-	width: 33%;
 	display: inline-block;
 	box-sizing: border-box;
 	height: 20px;
+	padding-top: 100px;
+	margin-right: 50px;
+}
+
+.icon img {
+	width: 60%;
 }
 
 /***************** COLORS & FONTS *****************/
