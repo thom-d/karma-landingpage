@@ -117,6 +117,10 @@ html {
 
 }
 
+.social_icons {
+	list-style: none;
+}
+
 /***************** COLORS & FONTS *****************/
 
 .nav_wrap {    
@@ -154,4 +158,32 @@ html {
 .copyright {
 	color: #ccc;
 }
+
+i {
+  display: block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #909090;
+    border-radius: 20px;
+    margin-right: 7px; /*space between*/
+}
+
+/*.fa-twitter {
+	border: 1px solid red;
+	border-radius: 49%;
+	padding: 11px 12px;
+}
+
+.fa-facebook {
+	border: 1px solid red;
+	border-radius: 50%;
+	padding: 11px 12px;
+}
+
+.fa-instagram {
+	border: 1px solid red;
+	border-radius: 49%;
+	padding: 11px 12px;
+}*/
 
