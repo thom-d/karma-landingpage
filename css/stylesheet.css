@@ -21,7 +21,7 @@ html {
 	width: 100%;
 	height: 70px;
 	z-index: 9999;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #E0E0E0;
 }
 
 .content {
@@ -122,28 +122,40 @@ html {
 
 .footer_nav {
 	width: 800px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 	text-align: center;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #E0E0E0;
 	/*margin-top: 5em;*/
 	padding-bottom: 200px;
+	overflow: auto;
 
 }
 
 .social_icons {
 	list-style: none;
+	margin: 0;
+	padding: 5px 0;
 }
 
-.social_icons > li .fa-twitter .fa-facebook .fa-instagram {
-	width: 35px;
+.footer_nav .social_icons > li {
     display: inline-block;
+    width: 35px;
     height: 36px;
-    border: 2px solid #909090;
+    border: 1px solid #E0E0E0;
     border-radius: 20px; 
-    margin-right: 7px;
+    padding: 9px;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
 }
 
-.footer_nav {
+.fa {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.copyright {
+	text-align: center;
 }
 
 /***************** COLORS & FONTS *****************/
@@ -224,9 +236,32 @@ html {
 	font-weight: 300;
 }
 
-.copyright {
-	color: #ccc;
+.footer_nav .content > p {
+	color: #000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
+
+.footer_nav .fa-twitter { 
+	color: #0099FF;
+}
+
+.footer_nav .fa-facebook { 
+	color: #3366CC;
+}
+
+.footer_nav .fa-instagram { 
+	color: #0066CC;
+}
+
+.copyright {
+	color: #E0E0E0;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
 
 
 
