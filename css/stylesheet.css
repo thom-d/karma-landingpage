@@ -24,7 +24,7 @@ html {
 }
 
 .content {
-	width: 920px;
+	width: 930px;
 	height: 70px;
 	margin: 0 auto;
 	/*box-sizing: border-box;*/
@@ -60,7 +60,7 @@ html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 800px;
-	outline: 1px solid red;
+
 	
 }
 
@@ -88,7 +88,7 @@ html {
 .icon_content {
 	margin-top: 100px;
 	text-align: center;
-	outline: 1px solid red;
+
 }
 
 .icon_content .icon {
@@ -152,10 +152,15 @@ html {
 
 .nav_links .active {     /*  Navigation Color and Behavior  */
 	color: #4c5058;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
 }
 
 .nav_links li {
 	color: #838994;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
 .nav_links li:hover {
@@ -170,12 +175,35 @@ html {
 
 .hero_title {
 	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.text_wrap > p {
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 }
 
 .text_button {
 	color: white;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	letter-spacing: 0.5px;
 	text-shadow: none;
-	background-color: orange;
+	background-color: #f7541d;
+}
+
+.text_button:hover {
+	background-color: #d13806;
+}
+
+.icon_content > p {
+	color: #000;
+	font-size: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 .copyright {
