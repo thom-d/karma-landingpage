@@ -88,8 +88,8 @@ html {
 
 .icon_content {
 	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 95px;
+	padding-top: 70px;
+	padding-bottom: 115px;
 
 }
 
@@ -121,31 +121,31 @@ html {
 /* FOOTER */
 
 .footer_nav {
-	width: 800px;
-	margin: 0 auto;
-	text-align: center;
-	border-top: 1px solid #E0E0E0;
-	/*margin-top: 5em;*/
+	width: 100%;
+	margin: 0;
+	/* border-top: 1px solid #E0E0E0; */
 	padding-bottom: 200px;
-	overflow: auto;
+	text-align: center;
+	box-sizing: border-box;
 
 }
 
 .social_icons {
 	list-style: none;
-	margin: 0;
+	margin: 0 10px 0 0;
 	padding: 5px 0;
 }
 
 .footer_nav .social_icons > li {
+	/* icon circle styling */
     display: inline-block;
     width: 35px;
     height: 36px;
     border: 1px solid #E0E0E0;
     border-radius: 20px; 
     padding: 9px;
+    /***********************/
     margin-left: 10px;
-    text-align: center;
     position: relative;
 }
 
@@ -236,6 +236,12 @@ html {
 	font-weight: 300;
 }
 
+hr {
+	background-color: #E0E0E0; 
+	height: 1px; 
+	border: 0; 
+}
+
 .footer_nav .content > p {
 	color: #000;
 	font-size: 16px;
@@ -244,15 +250,15 @@ html {
 }
 
 .footer_nav .fa-twitter { 
-	color: #0099FF;
+	color: #4099FF;
 }
 
 .footer_nav .fa-facebook { 
-	color: #3366CC;
+	color: #3b5998;
 }
 
 .footer_nav .fa-instagram { 
-	color: #0066CC;
+	color: #125688;
 }
 
 .copyright {
