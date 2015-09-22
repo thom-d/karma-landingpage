@@ -23,14 +23,14 @@ html {
 }
 
 .content {
-	width: 970px;
+	width: 920px;
 	height: 70px;
 	margin: 0 auto;
 	/*box-sizing: border-box;*/
 }
 
 .nav_wrap .content {
-	padding: 0 80px;
+	/*padding: 0 80px;*/
 }
 
 .nav_links {
