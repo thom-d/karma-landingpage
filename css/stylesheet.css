@@ -13,6 +13,13 @@ html {
   box-sizing: inherit;
 }
 
+.content {
+	width: 930px;
+	height: 70px;
+	margin: 0 auto;
+	/*box-sizing: border-box;*/
+}
+
 /* NAVIGATION ELEMENTS */
 
 
@@ -24,8 +31,10 @@ html {
 	border-bottom: 1px solid #E0E0E0;
 }
 
-.content {
-	width: 930px;
+
+
+.nav_wrap > .content {
+	width: 60%;
 	height: 70px;
 	margin: 0 auto;
 	/*box-sizing: border-box;*/
